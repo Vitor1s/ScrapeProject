@@ -1,0 +1,113 @@
+/* Global styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container styling - centered with shadow */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Page title styling */
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+}
+
+/* Flexbox container for search input and button */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+/* Input field styling with focus effects */
+input {
+  width: 400px;
+  padding: 12px 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+/* Input focus state with Amazon orange highlight */
+input:focus {
+  outline: none;
+  border-color: #ff9900;
+  box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.1);
+}
+
+/* Search button styling with hover effects */
+button {
+  padding: 12px 24px;
+  background: #ff9900;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+/* Button hover effect - darker orange */
+button:hover {
+  background: #e68a00;
+}
+
+/* Results container spacing */
+#results {
+  margin-top: 32px;
+}
+
+/* Individual product card styling */
+.product {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Product image styling */
+.product img {
+  width: 80px;
+  height: auto;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+/* Product details container - takes remaining space */
+.product-details {
+  flex: 1;
+}
+
+/* Product title styling */
+.product-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Product rating styling with Amazon orange */
+.product-rating {
+  color: #ff9900;
+  margin-bottom: 4px;
+}
+
+/* Product reviews count styling */
+.product-reviews {
+  color: #555;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Scraper</title>
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container for the application -->
+  <div class="container">
+    <!-- Page title with shopping cart emoji -->
+    <h1>🛒 Amazon Scraper</h1>
+    
+    <!-- Search form container with flexbox layout -->
+    <div class="search-container">
+      <!-- Input field for entering search keywords -->
+      <input type="text" id="keyword" placeholder="Enter search term...">
+      <!-- Button to trigger the scraping process -->
+      <button id="scrapeBtn">Search</button>
+    </div>
+    
+    <!-- Container where search results will be displayed -->
+    <div id="results"></div>
+  </div>
+  
+  <!-- JavaScript module for handling user interactions and API calls -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
